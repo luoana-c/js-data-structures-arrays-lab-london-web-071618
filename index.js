@@ -32,5 +32,5 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  const newDrivers = drivers.slice(drivers.length - 2)
+  const newDrivers = drivers.slice((drivers.length - 2))
 }
