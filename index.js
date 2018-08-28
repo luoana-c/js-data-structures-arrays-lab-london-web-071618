@@ -5,3 +5,8 @@ function destructivelyAppendDriver(name) {
   newDrivers = drivers.push(name)
   return newDrivers
 }
+
+function destructivelyPrependDriver(name) {
+  newDrivers = drivers.unshift(name)
+  return newDrivers
+}
